@@ -9,15 +9,15 @@ body{
 
 /* Styles for navbar */
 .navbar-dark .navbar-brand {
-  line-height: 1.6rem;
+  line-height: 1.7rem;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #7F7F7F;
 }
 .navbar-dark .navbar-brand:focus {
-  line-height: 1.6rem;
+  line-height: 1.7rem;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #7F7F7F;
 }
 
@@ -91,8 +91,17 @@ body{
     margin-top: 80px;
   }
 }
-/* Styles for main page */
 
-#first {
-  margin-top: 90px;
+/* Styles for main content */
+
+/* Zoom In #1 */
+.obj-zoom-in {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.obj-zoom-in:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
 }
