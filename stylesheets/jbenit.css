@@ -61,7 +61,7 @@ body{
   }
 
   body{
-    background-size: cover;
+    background-size: cover!important;
   }
 }
 
