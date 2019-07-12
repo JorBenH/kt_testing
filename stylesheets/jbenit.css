@@ -1,0 +1,88 @@
+body{
+  display: block;
+  background-image: url("../images/back/back_hex3.png");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1.2rem;
+}
+
+/* Styles for navbar */
+.navbar-dark .navbar-brand {
+  line-height: 1.7rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #7F7F7F;
+}
+.navbar-dark .navbar-brand:focus {
+  line-height: 1.7rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #7F7F7F;
+}
+
+.navbar-dark .navbar-brand:hover {
+  color: #A0A0A0;
+}
+
+#k {
+  color: #DBA135;
+}
+
+.navbar-dark .navbar-brand:hover #k {
+  color: #F4BB35;
+}
+
+#t {
+  color: #35478C;
+}
+
+.navbar-dark .navbar-brand:hover #t {
+  color: #526CBF;
+}
+
+.navbar.scrolled {
+    background: #000000F4;
+    transition: background 500ms;
+}
+
+.navbar {
+    background: #000000AA;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.dropdown-item:hover {
+  background: #A0A0A0AA;
+}
+
+/* styles for image slider */
+.mySlides {
+  display:none;
+}
+.animate-fading{
+  animation:fading 10s infinite
+}
+@keyframes fading{
+  0%{opacity:0}
+  50%{opacity:1}
+  100%{opacity:0}
+}
+
+.bg-img-slider {
+  background: #000000AA;
+}
+
+.bg-img-slider .mySlides {
+  width:100%;
+}
+
+@media (max-width:992px) {
+  #img-slider{
+    margin-top: 80px;
+  }
+}
+/* Styles for main page */
+
+#first {
+  margin-top: 90px;
+}
