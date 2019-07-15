@@ -39,7 +39,7 @@
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active mx-1">
-              <a class="nav-link" href="http://www.facebook.com/manuel.juarez.794">Manuel Juarez<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item mx-1">
               <a class="nav-link" href="#">Nosotros</a>
@@ -64,17 +64,31 @@
     </nav>
   </div>
 
-  <!-- Image Slider -->
-  <section id="img-slider" class="container-fluid px-0">
-    <div class="bg-img-slider">
-      <img class="mySlides animate-fading" src="images/site/CoverV01.png">
-      <img class="mySlides animate-fading" src="images/site/CoverV02.png">
-      <img class="mySlides animate-fading" src="images/site/CoverV03.png">
+  <!-- Image slider -->
+  <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-interval="7000">
+        <img src="images/site/CoverV01.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-interval="7000">
+        <img src="images/site/CoverV02.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-interval="7000">
+        <img src="images/site/CoverV03.png" class="d-block w-100" alt="...">
+      </div>
     </div>
-  </section>
+    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 
   <!-- Main content -->
-  <section>
+  <!-- <section>
     <div class="container-fluid my-3 p-lg-3">
       <div class="row">
         <div class="col-lg-6 col-xl-3 my-1 px-sm-5 px-lg-3 p-3">
@@ -119,7 +133,86 @@
         </div>
       </div>
     </div>
+  </section> -->
+
+  <section>
+    <div class="container-fluid my-3 p-lg-3">
+      <div class="row">
+        <div class="col-lg-6 my-1 px-sm-5 px-lg-3 p-3 p-xl-4">
+          <div class="card bg-dark text-white p-4 obj-zoom-in">
+            <div class="row align-items-center">
+              <div class="col-sm-6 content">
+                <img src="images/site/pcb_01.png" class="img-fluid img-thumbnail my-2 my-sm-0" alt="">
+              </div>
+              <div class="col-sm-6 content">
+                <img src="images/site/pcb_02.png" class="img-fluid img-thumbnail my-2 my-sm-0" alt="">
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Impresión 3D</h5>
+              <p class="card-text">Diseño y manufactura de piezas prototipo y funcionales los cuales son fabricados con diversas tecnologías como FDM
+                 (Fused Deposition Modeling) y DLP (Digital Light Processing) en materiales como PLA, ABS, PETG, Filamento Flexible, Resina
+                 Fotosensible. Además contamos con acabados superficiales que añaden resistencia y estética a las piezas.</p>
+              <a href="#" class="btn btn-outline-primary"><i class="fas fa-cube"></i>&nbsp  Ver Detalles</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 my-1 px-sm-5 px-lg-3 p-3 p-xl-4">
+          <div class="card bg-dark text-white p-4 obj-zoom-in">
+            <div class="row align-items-center">
+              <div class="col-sm-6 content">
+                <img src="images/site/h_3d.png" class="img-fluid img-thumbnail my-2 my-sm-0" alt="">
+              </div>
+              <div class="col-sm-6 content">
+                <img src="images/site/t_3d.png" class="img-fluid img-thumbnail my-2 my-sm-0" alt="">
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Manufactura de PCBs</h5>
+              <p class="card-text">Manufactura de PCB's (máximo dos caras) con acabado de cobre. Ideal para prototipos y entregas rápidas. O bien
+              con Solder Mask, SilkScreen, conexión entre vías y acabado de estaño. Para proyectos que requieren más seriedad y profesionalismo.</p>
+              <a href="#" class="btn btn-outline-success">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 my-1 px-sm-5 px-lg-3 p-3 p-xl-4">
+          <div class="card bg-dark text-white p-4 obj-zoom-in">
+            <img src="images/site/kt_team_crop.png" class="card-img-top rounded" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Acerca de Keidas Technology</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-outline-light">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 my-1 px-sm-5 px-lg-3 p-3 p-xl-4">
+          <div class="card bg-dark text-white p-4 obj-zoom-in">
+            <img src="images/site/kt_team_crop.png" class="card-img-top rounded" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Acerca de Keidas Technology</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-outline-danger">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class"container">
+      <div class="text-center foterxd text-light py-3">
+        <div class="copyright px-2">
+          &copy;
+          <script>
+            document.write(new Date().getFullYear())
+          </script>
+          ~ Keidas Technology
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <!-- Scripts -->
   <!-- jQuery first, then Popper.js, and Bootstrap JS, finally Custom Script -->

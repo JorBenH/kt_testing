@@ -66,33 +66,20 @@ body{
 }
 
 /* styles for image slider */
-.mySlides {
-  display:none;
-}
-.animate-fading{
-  animation:fading 7.5s infinite
-}
-@keyframes fading{
-  0%{opacity:0}
-  50%{opacity:1}
-  100%{opacity:0}
-}
-
-.bg-img-slider {
-  background: #000000CC;
-}
-
-.bg-img-slider .mySlides {
-  width:100%;
-}
-
 @media (max-width:992px) {
-  #img-slider{
+  #carouselExampleInterval{
     margin-top: 80px;
   }
 }
 
 /* Styles for main content */
+.card-text {
+  text-align: justify;
+}
+
+.card-title {
+  font-weight: bold;
+}
 
 /* Zoom In #1 */
 .obj-zoom-in {
@@ -104,4 +91,9 @@ body{
 .obj-zoom-in:hover {
 	-webkit-transform: scale(1.05);
 	transform: scale(1.05);
+}
+
+/* Footer */
+.foterxd {
+  background: #000000F4;
 }
