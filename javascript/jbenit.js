@@ -6,7 +6,18 @@ $(function () {
   });
 });
 
-// function for background animation
+$(function () {
+  $(document).scroll(function () {
+    var $scrollPos = $(this).scrollTop();
+    if ($scrollPos <= 0) {
+        $("#float-button").hide(1000);
+    } else {
+        $("#float-button").show(1000);
+    }
+  });
+});
+
+// function for background scroll
 $(document).ready(function() {
   $(window).scroll(function() {
     var barra = $(window).scrollTop();

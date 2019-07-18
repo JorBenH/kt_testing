@@ -72,7 +72,7 @@ body{
   }
 }
 
-/* Styles for main content */
+/* Styles for main content - index*/
 .card-text {
   text-align: justify;
 }
@@ -108,4 +108,36 @@ hr {
 /* Footer */
 .foterxd {
   background: #000000F4;
+}
+
+/* flotating button  */
+.float{
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	text-align:center;
+}
+
+/* Styles for main content - about*/
+
+.team {
+  background: #000000DD;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
 }
