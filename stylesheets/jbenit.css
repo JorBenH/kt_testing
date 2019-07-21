@@ -3,7 +3,7 @@ body{
   background-image: url("../images/back/back_hex3.png");
   background-size: cover;
   background-attachment: fixed;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Exo', sans-serif;
   font-size: 1.2rem;
 }
 
@@ -120,9 +120,21 @@ hr {
 
 /* Styles for main content - about*/
 
+.jumbotron{
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+
+.text-bold{
+  font-weight: 700;
+}
+
+.text-gray {
+  color: rgb(170, 170, 170);
+}
+
 .team {
   background: #000000DD;
-  margin-top: 80px;
   margin-bottom: 20px;
   padding: 20px;
 }
@@ -140,4 +152,10 @@ hr {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+}
+
+/* Styles for 3d Printing page */
+
+.printing{
+  margin-top: 80px;
 }
