@@ -28,3 +28,19 @@ $(document).ready(function() {
     });
   });
 });
+
+var flag = true;
+
+function clickg(clicked_id){
+  console.log(clicked_id);
+  if(flag) {
+    $("#imgslider01").removeClass("d-none");
+    $("#closebtn").removeClass("d-none");
+    flag = false;
+  }
+  else {
+    $("#imgslider01").addClass("d-none");
+    $("#closebtn").addClass("d-none");
+    flag = true;
+  }
+}

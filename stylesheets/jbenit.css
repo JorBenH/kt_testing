@@ -111,7 +111,7 @@ hr {
 }
 
 /* flotating button  */
-.float{
+.float {
 	position:fixed;
 	bottom:20px;
 	right:20px;
@@ -120,12 +120,12 @@ hr {
 
 /* Styles for main content - about*/
 
-.jumbotron{
+.jumbotron {
   margin-top: 80px;
   margin-bottom: 0px;
 }
 
-.text-bold{
+.text-bold {
   font-weight: 700;
 }
 
@@ -136,7 +136,7 @@ hr {
 .team {
   background: #000000DD;
   margin-bottom: 20px;
-  padding: 20px;
+  padding: 30px;
 }
 
 .bd-placeholder-img {
@@ -156,6 +156,25 @@ hr {
 
 /* Styles for 3d Printing page */
 
-.printing{
+.printing {
   margin-top: 80px;
+}
+
+.islider {
+  /* position:fixed;
+  top: 50px;
+  bottom: 50px;
+  text-align:center; */
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* width: 900px; */
+}
+
+.float-close {
+	position:fixed;
+	top:100px;
+	right:20px;
+	text-align:center;
 }
