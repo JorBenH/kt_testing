@@ -96,6 +96,12 @@ body{
 /* Contact section  */
 .contact-social {
   background: #000000BB;
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+
+.link-hover-light:hover {
+  color: #FFFFFF;
 }
 
 hr {
