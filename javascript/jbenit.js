@@ -30,17 +30,28 @@ $(document).ready(function() {
 });
 
 var flag = true;
+var lastId = "";
 
 function clickg(clicked_id){
-  console.log(clicked_id);
+  // console.log(clicked_id);
+  if(clicked_id != "closebtn")
+  {
+      var aidis = "#" + clicked_id + "_imgslider";
+      lastId = aidis;
+  }
+  // console.log(aidis);
+
   if(flag) {
-    $("#imgslider01").removeClass("d-none");
+    // console.log(clicked_id);
+    $(lastId).removeClass("d-none");
     $("#closebtn").removeClass("d-none");
+    $("#bg_is").removeClass("d-none");
     flag = false;
   }
   else {
-    $("#imgslider01").addClass("d-none");
+    $(lastId).addClass("d-none");
     $("#closebtn").addClass("d-none");
+    $("#bg_is").addClass("d-none");
     flag = true;
   }
 }

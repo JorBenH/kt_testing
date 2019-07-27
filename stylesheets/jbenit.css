@@ -184,3 +184,14 @@ hr {
 	right:20px;
 	text-align:center;
 }
+
+/* Styles for Projects page */
+
+.background_is {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #000000AA;
+}
