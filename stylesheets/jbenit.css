@@ -131,6 +131,18 @@ hr {
   margin-bottom: 0px;
 }
 
+.ktimg {
+  width: 70%;
+  padding-bottom: 0px;
+}
+
+@media (max-width:992px) {
+  .ktimg {
+    width: 35%;
+    padding-bottom: 30px;
+  }
+}
+
 .text-bold {
   font-weight: 700;
 }
