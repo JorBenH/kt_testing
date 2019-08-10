@@ -66,10 +66,15 @@ body{
 }
 
 /* styles for image slider */
-@media (max-width:992px) {
+/* @media (max-width:992px) {
   #carouselExampleInterval{
     margin-top: 80px;
   }
+} */
+
+#top_imgslider {
+  background: #000000DD;
+  margin-top: 80px;
 }
 
 /* Styles for main content - index*/
@@ -129,6 +134,7 @@ hr {
 .jumbotron {
   margin-top: 80px;
   margin-bottom: 0px;
+  background: #000000DD;
 }
 
 .ktimg {
@@ -187,7 +193,8 @@ hr {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  /* width: 900px; */
+  /* width: 70%;
+  height: auto; */
 }
 
 .float-close {

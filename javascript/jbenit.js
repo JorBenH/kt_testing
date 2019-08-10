@@ -46,12 +46,14 @@ function clickg(clicked_id){
     $(lastId).removeClass("d-none");
     $("#closebtn").removeClass("d-none");
     $("#bg_is").removeClass("d-none");
+    document.body.style.overflow = 'hidden';
     flag = false;
   }
   else {
     $(lastId).addClass("d-none");
     $("#closebtn").addClass("d-none");
     $("#bg_is").addClass("d-none");
+    document.body.style.overflow = 'visible';
     flag = true;
   }
 }
