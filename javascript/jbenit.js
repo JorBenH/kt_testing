@@ -33,16 +33,13 @@ var flag = true;
 var lastId = "";
 
 function clickg(clicked_id){
-  // console.log(clicked_id);
   if(clicked_id != "closebtn")
   {
       var aidis = "#" + clicked_id + "_imgslider";
       lastId = aidis;
   }
-  // console.log(aidis);
 
   if(flag) {
-    // console.log(clicked_id);
     $(lastId).removeClass("d-none");
     $("#closebtn").removeClass("d-none");
     $("#bg_is").removeClass("d-none");

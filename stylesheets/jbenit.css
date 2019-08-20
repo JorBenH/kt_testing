@@ -65,13 +65,6 @@ body{
   }
 }
 
-/* styles for image slider */
-/* @media (max-width:992px) {
-  #carouselExampleInterval{
-    margin-top: 80px;
-  }
-} */
-
 #top_imgslider {
   background: #000000DD;
   margin-top: 80px;
@@ -185,16 +178,10 @@ hr {
 }
 
 .islider {
-  /* position:fixed;
-  top: 50px;
-  bottom: 50px;
-  text-align:center; */
   position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  /* width: 70%;
-  height: auto; */
 }
 
 .float-close {
