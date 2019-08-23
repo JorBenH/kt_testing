@@ -54,3 +54,7 @@ function clickg(clicked_id){
     flag = true;
   }
 }
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
